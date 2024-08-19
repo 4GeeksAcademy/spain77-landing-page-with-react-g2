@@ -1,4 +1,5 @@
 import React from "react";
+import { Navbar } from "./Navbar";
 //include images into your bundle
 import rigoImage from "../../img/rigo-baby.jpg";
 import { Card } from "./Card.jsx";
@@ -7,6 +8,7 @@ import { Card } from "./Card.jsx";
 const Home = () => {
 	return (
 		<div className="text-center">
+			<Navbar />
 			<h1 className="text-center mt-5">Hello Rigo!</h1>
 			<p>
 				<img src={rigoImage} />
