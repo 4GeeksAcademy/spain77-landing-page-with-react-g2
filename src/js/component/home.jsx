@@ -8,6 +8,7 @@ import { Button } from "./Button.jsx";
 import { Footer } from "./Footer.jsx";
 import { Spinner } from "./Spinner.jsx";
 import { Alert } from "./alert.jsx";
+import { Badge } from "./Badge.jsx";
 
 
 
@@ -16,6 +17,7 @@ const Home = () => {
 	return (
 		<div className="text-center">
 			<Navbar />
+			<Badge />
       <Spinner />
 			<Alert />
 			<Landing />
