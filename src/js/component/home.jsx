@@ -6,6 +6,9 @@ import { Card } from "./Card.jsx";
 import { Landing } from "./Landing.jsx";
 import { Button } from "./Button.jsx";
 import { Footer } from "./Footer.jsx";
+import { Spinner } from "./Spinner.jsx";
+import { Alert } from "./alert.jsx";
+
 
 
 //create your first component
@@ -13,6 +16,8 @@ const Home = () => {
 	return (
 		<div className="text-center">
 			<Navbar />
+      <Spinner />
+			<Alert />
 			<Landing />
 			<a href="#" className="btn btn-success">
 				If you see this green button... bootstrap is working...
