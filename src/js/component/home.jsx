@@ -3,6 +3,7 @@ import { Navbar } from "./Navbar";
 
 //include images into your bundle
 import rigoImage from "../../img/rigo-baby.jpg";
+import { Button } from "./Button.jsx";
 
 //create your first component
 const Home = () => {
@@ -21,6 +22,7 @@ const Home = () => {
 				<a href="http://www.4geeksacademy.com">4Geeks Academy</a>, with
 				love!
 			</p>
+			<Button />
 		</div>
 	);
 };
