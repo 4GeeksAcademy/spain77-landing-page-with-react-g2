@@ -5,6 +5,7 @@ import rigoImage from "../../img/rigo-baby.jpg";
 import { Card } from "./Card.jsx";
 import { Landing } from "./Landing.jsx";
 import { Button } from "./Button.jsx";
+import { Footer } from "./Footer.jsx";
 import { Spinner } from "./Spinner.jsx";
 import { Alert } from "./alert.jsx";
 
@@ -22,12 +23,8 @@ const Home = () => {
 				If you see this green button... bootstrap is working...
 			</a>
 			<Card/>
-			<p>
-				Made by{" "}
-				<a href="http://www.4geeksacademy.com">4Geeks Academy</a>, with
-				love!
-			</p>
 			<Button />
+			<Footer />
 		</div>
 	);
 };
