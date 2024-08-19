@@ -4,6 +4,7 @@ import { Navbar } from "./Navbar";
 //include images into your bundle
 import rigoImage from "../../img/rigo-baby.jpg";
 import { Button } from "./Button.jsx";
+import { Spinner } from "./Spinner.jsx";
 
 //create your first component
 const Home = () => {
@@ -11,6 +12,7 @@ const Home = () => {
 		<div className="text-center">
 			<Navbar />
 			<h1 className="text-center mt-5">Hello Rigo!</h1>
+			<Spinner />
 			<p>
 				<img src={rigoImage} />
 			</p>
