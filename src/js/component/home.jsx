@@ -3,25 +3,30 @@ import { Navbar } from "./Navbar";
 //include images into your bundle
 import rigoImage from "../../img/rigo-baby.jpg";
 import { Card } from "./Card.jsx";
+import { Landing } from "./Landing.jsx";
+import { Button } from "./Button.jsx";
+import { Footer } from "./Footer.jsx";
+import { Spinner } from "./Spinner.jsx";
+import { Alert } from "./alert.jsx";
+import { Badge } from "./Badge.jsx";
+
+
 
 //create your first component
 const Home = () => {
 	return (
 		<div className="text-center">
 			<Navbar />
-			<h1 className="text-center mt-5">Hello Rigo!</h1>
-			<p>
-				<img src={rigoImage} />
-			</p>
+			<Badge />
+      <Spinner />
+			<Alert />
+			<Landing />
 			<a href="#" className="btn btn-success">
 				If you see this green button... bootstrap is working...
 			</a>
 			<Card/>
-			<p>
-				Made by{" "}
-				<a href="http://www.4geeksacademy.com">4Geeks Academy</a>, with
-				love!
-			</p>
+			<Button />
+			<Footer />
 		</div>
 	);
 };
